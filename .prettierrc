@@ -1,0 +1,24 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "printWidth": 80,
+  "endOfLine": "auto",
+  "importOrder": [
+    "^@components/(.*)$",
+    "^@containers/(.*)$",
+    "^@helpers/(.*)$",
+    "^@hooks/(.*)$",
+    "^@providers/(.*)$",
+    "^@interfaces/(.*)$",
+    "^@libraries/(.*)$",
+    "^@utils/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
